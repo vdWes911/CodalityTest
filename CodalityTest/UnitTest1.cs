@@ -1,36 +1,14 @@
-namespace CodalityTest;
+using NUnit.Framework;
 
-public class Tests
+namespace CodalityTest
 {
-
-#region Setup
-    [OneTimeSetUp]
-    public void OneTimeSetup()
+    public class Tests
     {
-    }
+        [Test]
+        public void Test1()
+        {
+            Assert.Pass();
+        }
 
-    [SetUp]
-    public void Setup()
-    {
     }
-#endregion
-
-
-    [Test]
-    public void Test1()
-    {
-        Assert.Pass();
-    }
-
-#region Teardown
-    [OneTimeTearDown]
-    public void OneTimeTearDown()
-    {
-    }
-
-    [TearDown]
-    public void TearDown()
-    {
-    }
-#endregion
 }
